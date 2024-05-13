@@ -7,11 +7,6 @@ const ContactsPage = () => {
             width="100%"
             height="100%"
             className="absolute inset-0"
-            frameborder="0"
-            title="map"
-            marginheight="0"
-            marginwidth="0"
-            scrolling="no"
             src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
             style={{
               filter: "grayscale(1) contrast(1.2) opacity(0.4)",
@@ -71,9 +66,12 @@ const ContactsPage = () => {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="message" className="leading-7 text-sm text-gray-600">
+            <label
+              htmlFor="message"
+              className="leading-7 text-sm text-gray-600"
+            >
               Message
-            </label> 
+            </label>
             <textarea
               id="message"
               name="message"
